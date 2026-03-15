@@ -18,5 +18,5 @@ int ArrowKnockbackEnchantment::getMaxCost(int level)
 
 int ArrowKnockbackEnchantment::getMaxLevel()
 {
-	return 2;
+	return 20;
 }

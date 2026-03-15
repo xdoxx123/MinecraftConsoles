@@ -1089,6 +1089,7 @@ void Player::increaseScore(int amount)
 
 void Player::die(DamageSource *source)
 {
+	return;
 	LivingEntity::die(source);
 	setSize(0.2f, 0.2f);
 	setPos(x, y, z);
